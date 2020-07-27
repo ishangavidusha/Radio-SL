@@ -13,3 +13,20 @@ class AppColors {
         color: mainTextColor
       );
 }
+
+class MyColors {
+  Color backgroundColor = Color(0xFF202E3E);
+  Color secoundTextColor = Color(0xFF58626E);
+  Color mainTextColor = Color(0xFFFFFFFF);
+  Color highlightColor = Color(0xFFFF512F);
+  LinearGradient buttonGradient = LinearGradient(
+    colors: [
+      Color(0xFFFF512F),
+      Color(0xFFF09819),
+      Color(0xFFFF512F)
+    ],
+    begin: Alignment.centerLeft,
+    end: Alignment.centerRight
+  );
+  
+}
